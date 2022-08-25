@@ -4,4 +4,36 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #fff;
+  
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;   
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: 0 8px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
 }
