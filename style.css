@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
-  
+
 }
 
 .left-items {
@@ -24,7 +24,7 @@ body {
 header {
     font-size: 24px;
     font-weight: bold;
-    margin-top: 16px;   
+    margin-top: 16px;
 }
 
 ul {
@@ -56,7 +56,7 @@ h1 {
 }
 
 .hero-text {
-    color: #E5E7EB; 
+    color: #E5E7EB;
     font-size: 18px;
     margin-bottom: 16px;
 }
@@ -71,8 +71,51 @@ button {
     padding: 10px 32px;
 }
 
+.main-image {
+    width: 500px;
+}
+
 .content {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    margin: 50px 0;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 100px;
+}
+
+.image-text {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-image {
+    width: 160px;
+    height: 160px;
+    border: solid 4px #3882f6;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #1c2129;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    margin: 0;
 }
