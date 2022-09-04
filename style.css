@@ -143,3 +143,38 @@ h2 {
     width: 50%;
     margin-top: 10px;
 }
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: #F9FAF8;
+    display: flex;
+    gap: 8px;
+    padding: 50px 100px;
+    margin: 100px 0;
+    width: 50%;
+}
+
+.sign-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.sign-text {
+    font-size: 18px;
+}
+
+.sign-right {
+    border: 2px solid #F9FAF8;
+    margin-left: auto;
+    padding: 2px 40px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    text-align: center;
+    padding: 50px 0;
+}
